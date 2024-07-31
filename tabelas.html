@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+        table {
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <table class="table table-primary"> <!-- table-sufixo altera a cor. Tem algumas variações como: danger, success, warning, dark -->
+        <caption>Tabela de produtos</caption>
+        <thead>
+            <th>Nome do produto</th>
+            <th>Preço original</th>
+            <th>Preço atual</th>
+            <th>Desconto</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Iphone 13</td>
+                <td>R$7.000,00</td>
+                <td>R$5.000,00</td>
+                <td>R$2.000,00</td>
+            </tr>
+            <tr>
+                <td>Iphone 14</td>
+                <td>R$8.000,00</td>
+                <td>R$6.000,00</td>
+                <td>R$2.000,00</td>
+            </tr>
+            <tr>
+                <td>Iphone 15</td>
+                <td>R$10.000,00</td>
+                <td>R$9.000,00</td>
+                <td>R$2.000,00</td>
+            </tr>
+            <tr>
+                <td>Iphone 16</td>
+                <td>R$13.000,00</td>
+                <td>R$11.000,00</td>
+                <td>R$2.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-secondary">Clique aqui</button><!-- Os sufixos são os mesmos que a da classe table. adicionando a palavra outline antes do sufixo, cria uma borda. E também há como alterar o tamanho com a classe btn-sm/md/lg -->
+</body>
+</html>
